@@ -52,7 +52,7 @@ function all(calls, multicallAddress, provider) {
                             callData: callData,
                         };
                     });
-                    return [4 /*yield*/, multicall.aggregate(callRequests)];
+                    return [4 /*yield*/, multicall.callStatic.aggregate(callRequests)];
                 case 1:
                     response = _a.sent();
                     callCount = calls.length;
