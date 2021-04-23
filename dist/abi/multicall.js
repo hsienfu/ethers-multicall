@@ -36,7 +36,7 @@ exports.multicallAbi = [
             },
         ],
         payable: false,
-        stateMutability: 'view',
+        stateMutability: 'nonpayable',
         type: 'function',
     },
     {
